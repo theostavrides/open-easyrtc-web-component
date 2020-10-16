@@ -1,7 +1,7 @@
 # open-easyrtc-web-component
 
 A basic webrtc server with a video/audio web component.
-It is meant to be used as an easy and quick starting point 
+It is meant to be used as a quick and easy starting point 
 for web apps that require video + audio chat between two 
 clients.   
 
