@@ -1,4 +1,3 @@
-// require('dotenv').config()
 process.title        = "node-easyrtc";
 const path           = require('path');
 const http           = require("http");
