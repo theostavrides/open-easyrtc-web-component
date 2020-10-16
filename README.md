@@ -3,7 +3,7 @@
 A basic webrtc server with a video/audio web component.
 It is meant to be used as a quick and easy starting point 
 for web apps that require video + audio chat between two 
-clients.   
+clients. It is a wrapper for the open-easyrtc library.
 
 # install
 1. Clone this repo.
