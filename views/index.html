@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/easyrtcwc/easyrtc.js"></script>
+  </head>
+
+  <body>
+    <div style="height: 500px; width: 500px">
+      <easyrtc-wc room=''></easyrtc-wc>
+    </div>
+
+    <script>
+      // INITIALIZE EASYRTC WEB COMPONENT;
+      window.onload = function() {
+        const easyrtcwc = document.querySelector('easyrtc-wc')
+        // change the room attribute to whatever room id you want.
+        easyrtcwc.setAttribute('room', 'awegawr23r53t243')
+      };
+    </script>
+    <script type="text/javascript" src="/easyrtcwc/easyrtcwc.js"></script>
+  </body>
+
+</html>

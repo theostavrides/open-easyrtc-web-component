@@ -1,0 +1,20 @@
+{
+  "name": "easyrtcwc",
+  "version": "1.0.0",
+  "description": "open-easyrtc web component",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Theodosius Stavrides",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "open-easyrtc": "^2.0.5",
+    "socket.io": "^2.3.0"
+  }
+}
