@@ -1,6 +1,6 @@
 # open-easyrtc-web-component
 
-### Basic webrtc server with a video/audio web component for the front end.   
+Basic webrtc server with a video/audio web component for the front end.   
 
 # install
 1. Clone this repo.
