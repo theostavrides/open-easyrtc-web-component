@@ -9,10 +9,8 @@ const easyrtc        = require("open-easyrtc");
 const app            = express();
 const webServer      = http.createServer(app);
 const socketServer   = socketIo.listen(webServer, {"log level":1});
-const cookieParser   = require('cookie-parser');
 
 app.use(express.static(path.join(__dirname, 'src')));
-app.use(cookieParser())
 app.engine('html', require('ejs').renderFile);
 
 
