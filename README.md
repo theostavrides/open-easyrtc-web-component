@@ -7,6 +7,6 @@ clients. It is a wrapper for the open-easyrtc library.
 
 # install
 1. Clone this repo.
-2. Run `npm install` in the /easyrtcwc directory.
+2. Run `npm install` in the root directory.
 3. Run `node server.js` to start the server.
 4. Navigate to localhost:8080 in two browser windows to see it work.
